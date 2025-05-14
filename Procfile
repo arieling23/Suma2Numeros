@@ -1,1 +1,1 @@
-web: gunicorn suma:app
+web: gunicorn Suma:app
