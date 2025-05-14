@@ -11,7 +11,7 @@ def index():
         try:
             a = float(request.form["a"])
             b = float(request.form["b"])
-            resultado = a - b
+            resultado = a + b
         except:
             resultado = "Error: Ingresa números válidos."
 
